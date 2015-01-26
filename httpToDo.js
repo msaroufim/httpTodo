@@ -75,19 +75,7 @@ var server = http.createServer(function(req,res) {
 					res.end('OK\n')
 				});
 			}
-
-
-				var item = '';
-			req.setEncoding('utf8');
-			req.on('data',function(chunk) {
-				item += chunk;
-
-			});
-
-			req.on('end',function() {
-				items.push(item);
-				res.end('OK\n');
-			});
+			
 			break;
 
 
