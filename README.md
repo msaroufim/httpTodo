@@ -4,13 +4,15 @@ Really no surprises here, implementing the usual GET POST DELETE and PUT...
 
 Probably not the most practical of todolists but hey to each his own!
 
-##Usage
+##Get Started
 
 Get the server listening
 
 ```
 node httpToDo.js
 ```
+
+##Usage
 
 Create a new entry in your todo list
 ```
